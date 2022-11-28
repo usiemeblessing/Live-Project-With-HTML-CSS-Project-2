@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #1c1d1f;
+}
+
+nav {
+  background-color: yellow;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: url(../images/bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.hero-section-card {
+  position: absolute;
+  left: 70px;
+  top: 70px;
+  width: 480px;
+  padding: 24px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.hero-section-p {
+  line-height: 1.2;
+}
+
+/* BUTTONS */
+.bestseller-btn {
+  color: #1c1d1f;
+  background-color: #eceb98;
+  border: none;
+  padding: 5px 10px;
+}
+
+.explore-python-btn {
+  /* font-size: 16px; */
+  padding: 20px;
+}
+
+/* AFTER HERO SECTION */
+.after-hero-section-wrapper {
+  /* background-color: red; */
+  margin: 0 20px;
+  padding: 10px;
+}
+
+/* broad selection of courses section */
+.broad-selection h2 {
+  margin-bottom: 10px;
+}
+
+.broad-selection p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.courses-hyperlinks {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin-bottom: 15px;
+}
+
+.courses-hyperlinks a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #1c1d1f;
+  font-weight: 600;
+}
+
+/* Courses Row One */
+
+.courses-row-1-container {
+  border: 1px solid black;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.courses-row-one p {
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.explore-python-btn {
+  border: 1px solid black;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.courses-lists-row-1,
+.courses-lists-row-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.course p {
+  font-size: 16px;
+}
+
+.fa-star {
+  color: orange;
+  font-size: 16px;
+}
+/* Courses row one ends */
+
+/* courses row two starts */
+.courses-row-2-container {
+  margin-bottom: 50px;
+}
+
+/* Category Section Start */
+.category-container {
+  background-color: green;
+}
+
+.categories-row-1 {
+  display: flex;
+  gap: 10px;
+}
+/* Category Section End*/
