@@ -12,12 +12,11 @@ body {
 }
 
 nav {
-  background-color: yellow;
+  /* background-color: yellow; */
   padding: 10px;
-}
-
-nav ul li {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 /* Hero Section */
