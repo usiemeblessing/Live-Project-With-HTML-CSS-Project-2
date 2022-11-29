@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: serif;
+  font-family: sans-serif;
   font-size: 1.6rem;
   line-height: 1.4;
   color: #1c1d1f;
@@ -29,6 +29,10 @@ nav p {
   border: 1px solid black;
   border-radius: 30px;
   text-align: left;
+}
+
+h6 {
+  font-size: 14px;
 }
 
 /* Hero Section */
@@ -118,9 +122,9 @@ h4 {
   font-weight: bold;
 }
 
-.courses-row-one p {
+.expand-your-career {
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.5;
   margin-bottom: 10px;
 }
 
@@ -177,5 +181,14 @@ h4 {
 .category-card p {
   font-size: 18px;
   color: black;
+  font-weight: bold;
 }
 /* Category Section End*/
+
+/* Topics By Category Section Start */
+
+.topics-by-category-section {
+  padding: 50px 30px;
+}
+
+/* Topics By Category Section Start */
