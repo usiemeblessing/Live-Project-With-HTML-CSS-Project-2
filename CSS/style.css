@@ -12,16 +12,27 @@ body {
 }
 
 nav {
-  /* background-color: yellow; */
   padding: 10px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
+nav p {
+  font-size: 18px;
+}
+
+.search-anything {
+  width: 500px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 30px;
+  text-align: left;
+}
+
 /* Hero Section */
 .hero-section {
-  background-image: url(../images/bg-image.jpg);
+  background-image: url(../images/bg-image-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
