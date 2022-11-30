@@ -185,10 +185,16 @@ h4 {
 }
 /* Category Section End*/
 
-/* Topics By Category Section Start */
+/* Featured Topics By Category Section Start */
 
-.topics-by-category-section {
+.featured-topics-by-category-section {
   padding: 50px 30px;
 }
 
-/* Topics By Category Section Start */
+.topics-by-category-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Featured Topics By Category Section Start */
